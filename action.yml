@@ -53,7 +53,7 @@ runs:
     DEEPSEEK_API_KEY: ${{ inputs.deepseek_api_key }}
     OPENROUTER_API_KEY: ${{ inputs.openrouter_api_key }}
     FEATURE_REF: ${{ inputs.branch }}
-    MODEL: ${{ inputs.model }}
+    AIDER_SONNET: "1"
   args:
     - ${{ inputs.aider_args }}
 branding:
