@@ -27,6 +27,3 @@ git checkout $BRANCH_NAME
 
 # Run aider command
 eval "aider $AIDER_ARGS"
-
-# Push changes
-git push -u origin $BRANCH_NAME
